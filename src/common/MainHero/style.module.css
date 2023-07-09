@@ -1,0 +1,39 @@
+.hero__wrapper {
+  height: 400px;
+}
+
+.hero__wrapper {
+  height: 400px;
+}
+
+.hero__textbox {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  height: 100%;
+}
+
+.hero__title {
+  font-size: 80px !important;
+  font-weight: 900;
+}
+
+.content__wrapper {
+  transform: translateY(-50px);
+}
+
+.hero__bar {
+  height: 50px;
+  background-color: var(--hero-bar);
+  width: 100%;
+}
+.bar__left {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+.bar__right {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}

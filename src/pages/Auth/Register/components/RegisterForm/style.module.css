@@ -1,0 +1,17 @@
+.form__row {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  gap: 20px;
+}
+
+.form__rowitem {
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .form__row {
+    width: 350px;
+    flex-direction: column;
+  }
+}

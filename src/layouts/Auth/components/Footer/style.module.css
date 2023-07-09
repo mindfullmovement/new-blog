@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footer__left {
+  display: flex;
+  gap: 10px;
+  fill: var(--color-text) !important;
+}
+
+.footer__right {
+}

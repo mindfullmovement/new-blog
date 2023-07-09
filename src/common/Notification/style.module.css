@@ -1,0 +1,82 @@
+@keyframes SlideLeft {
+  0% {
+    margin-left: 120%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes SlideRight {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 120%;
+  }
+}
+
+.notification__wrapper {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 300px;
+  overflow: visible;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.notification__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  opacity: 0.3;
+}
+
+.notification__item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  animation: SlideLeft 0.4s;
+  animation-fill-mode: forwards;
+  width: 300px;
+}
+
+.notification__item--info {
+  background-color: var(--color-info);
+}
+
+.notification__item--help {
+  background-color: var(--color-help);
+}
+
+.notification__item--warning {
+  background-color: var(--color-warning);
+}
+
+.notification__item--success {
+  background-color: var(--color-success);
+  backdrop-filter: blur(200px);
+}
+.notification__item--error {
+  background-color: var(--color-error);
+}
+
+.notification__item.exit {
+  animation: SlideRight 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.notification__bar {
+  height: 10px;
+}

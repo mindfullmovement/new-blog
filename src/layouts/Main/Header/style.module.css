@@ -1,0 +1,82 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: var(--header-background);
+
+  pointer-events: none;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+}
+
+.header--scrolled {
+  background-color: var(--background-panel);
+  transition: all 1s ease-in-out;
+}
+
+.header__container {
+  height: 100%;
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.header__nav {
+  pointer-events: auto;
+  white-space: nowrap;
+}
+
+.button__container {
+  font-size: 24px;
+  display: flex;
+  gap: 20px;
+}
+
+.header__button {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  opacity: 0.8;
+}
+
+.header__button:hover {
+  opacity: 1;
+}
+
+.button__login {
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 500px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 16px 32px;
+}
+
+.button__signup {
+  font-size: 16px;
+  font-weight: 700;
+
+  color: #fff;
+  opacity: 0.9;
+  padding-right: 32px;
+}
+
+.button__signup:hover {
+  transform: scale(1.04);
+  color: #fff;
+  opacity: 1;
+}
+
+.button__login:hover {
+  transform: scale(1.04);
+  color: #000;
+}

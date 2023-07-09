@@ -1,0 +1,108 @@
+:root.dark-theme {
+  /* Background */
+  --background-base: #d6dde3;
+  --background-panel: #eeeeee;
+  --background-panel-item: #ffffff;
+  --header-background: rgba(255, 255, 255, 0.2);
+  --hero-bar: rgba(255, 255, 255, 0.1);
+
+  --input-background: #242424;
+  --input-background-hover: #2a2a2a;
+  --input-color: #fff;
+  --input-border: #fff;
+  /* Colors */
+
+  --color-text: #2a2a2a;
+
+  --color-primary: #73bec0;
+  --color-primary-light: #c0eff0;
+  --color-primary-dark: #495c5d;
+
+  --color-secondary: #ffffff;
+  --color-secondary-text: #000000;
+
+  --color-input: #f7f7f6;
+
+  --color-error: #ff6060;
+  --color-info: #0099ff;
+  --color-help: #c6c6c6;
+  --color-warning: #ffc107;
+  --color-success: #4caf50;
+
+  /* Shadows */
+  --shadow-s: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  --shadow-m: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --shadow-l: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-input: inset 0 3px 0 0 hsl(213deg 8% 74% / 20%);
+
+  /* Z-indexes */
+  --z-loadingscreen: 1;
+  --z-overlay: 4;
+  --z-drawer: 5;
+  --z-sidemenu: 3;
+  --z-header: 5;
+
+  /* Spacing */
+  --gap-xs: 6px;
+  --gap-s: 12px;
+  --gap-m: 24px;
+  --gap-l: 48px;
+  --gap-xl: 96px;
+
+  /* Sizes */
+  --header-height: 80px;
+}
+
+:root {
+  /* Background */
+  --background-base: #000000;
+  --background-panel: #121212;
+  --background-panel-item: #282828;
+
+  --header-background: rgba(0, 0, 0, 0.2);
+  --hero-bar: rgba(0, 0, 0, 0.1);
+
+  /* Colors */
+
+  --color-text: #fff;
+
+  --color-primary: #73bec0;
+  --color-primary-light: #c0eff0;
+  --color-primary-dark: #495c5d;
+
+  --color-secondary: #ffffff;
+  --color-secondary-text: #000000;
+
+  --color-input: #f7f7f6;
+
+  --color-error: #ff6060;
+  --color-info: #0099ff;
+  --color-help: #c6c6c6;
+  --color-warning: #ffc107;
+  --color-success: #4caf50;
+
+  /* Shadows */
+  --shadow-s: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  --shadow-m: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --shadow-l: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-input: inset 0 3px 0 0 hsl(213deg 8% 74% / 20%);
+
+  /* Z-indexes */
+  --z-loadingscreen: 1;
+  --z-overlay: 4;
+  --z-drawer: 5;
+  --z-sidemenu: 3;
+  --z-header: 5;
+
+  /* Spacing */
+  --gap-xs: 6px;
+  --gap-s: 12px;
+  --gap-m: 24px;
+  --gap-l: 48px;
+  --gap-xl: 96px;
+
+  /* Sizes */
+  --header-height: 80px;
+}

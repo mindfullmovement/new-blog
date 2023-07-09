@@ -1,0 +1,58 @@
+.button {
+  padding: 4px 12px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  font-size: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.button--secondary {
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+.button--info {
+  background-color: var(--color-info);
+  border: 2px solid var(--color-info);
+  color: var(--color-info);
+}
+
+.button--warning {
+  background-color: var(--color-warning);
+  border: 2px solid var(--color-warning);
+  color: var(--color-warning);
+}
+
+.button--error {
+  background-color: var(--color-error);
+  border: 2px solid var(--color-error);
+  color: var(--color-error);
+}
+
+.button--success {
+  background-color: var(--color-info);
+  border: 2px solid var(--color-info);
+  color: var(--color-info);
+}
+
+.button__round {
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.button__outlined {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button__filled {
+  color: black;
+}

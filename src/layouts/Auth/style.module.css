@@ -1,0 +1,43 @@
+.auth__background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background-base);
+}
+
+.auth__center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.auth__wrap {
+  padding: 20px;
+  /* background: red; */
+}
+
+.auth__foot {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  color: var(--color-text-light);
+}
+
+.auth__card {
+  box-shadow: var(--shadow-m);
+  border-radius: var(--gap-s);
+  background-color: var(--background-panel);
+  color: var(--color-text);
+
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .auth__card {
+    display: contents;
+  }
+}

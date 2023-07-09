@@ -1,0 +1,21 @@
+.navlink__item {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: grey;
+}
+
+.navlink__item--active {
+  color: white;
+}
+
+.navlink__text {
+  padding-left: 20px;
+
+  font-size: 16px;
+}

@@ -1,0 +1,33 @@
+.content__wrapper {
+  height: 100%;
+  background-color: var(--background-panel);
+  position: relative;
+  /* margin: 5px 0; */
+}
+
+.content__container {
+  height: 100px;
+}
+
+.content__scroll {
+  overflow: auto;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.scroll__content {
+  height: 400px;
+}
+
+.scroll__content--locked {
+  overflow: hidden;
+}
+
+.content__item {
+  min-height: 95vh;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
